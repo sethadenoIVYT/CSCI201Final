@@ -1,3 +1,18 @@
+/*
+
+Author: Seth Deno
+Date Written: 12/13/2024
+Assignment: Final Project
+Short Desc: This program displays a gui to the user, including a home, how to play
+game, and results screen. The game is a 5x5 grid of buttons in which the user has to
+find all of the five "safe" buttons within the grid consecutively. The user has a 
+set number of chances to do this, the more chances it takes them, the less points 
+they will earn. A result page will pop up when the game is over, telling you if you 
+won or lost and what your score was if you won. The safe buttons are shown by the 
+middle of the button turning green when you press it.
+
+*/
+
 #include <gtkmm.h>
 #include <iostream>
 #include <fstream>
